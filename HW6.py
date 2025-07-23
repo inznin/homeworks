@@ -55,7 +55,7 @@ class SavingsAccount(BankAccount):
         return f"Savings Account - Account Holder: {self.account_holder}, Balance: ${self.balance}, Interest Rate: {self.interest_rate * 100}%"
 
 
-# Task 7: Test SavingsAccount
+
 print("\n=== Task 7 Test ===")
 savings = SavingsAccount("Nznin", 1000, 0.05)
 savings.deposit(50)
